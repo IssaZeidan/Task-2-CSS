@@ -1,0 +1,8 @@
+tr td div {
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px rgba(64, 63, 63, 0.861);
+  margin: 2px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}

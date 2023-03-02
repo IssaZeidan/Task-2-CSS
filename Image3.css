@@ -1,0 +1,34 @@
+#bold-header {
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+#first-link {
+  color: #ffaf4a;
+  text-decoration-line: underline;
+}
+#blue-header {
+  color: blue;
+}
+#second-link {
+  color: #ffaf4a;
+  text-decoration-line: underline;
+}
+#third-link {
+  background-color: #f1e61d;
+  text-decoration-line: underline;
+}
+#fourth-link,
+#fifth-link,
+#sixth-link {
+  color: #ff0000;
+  text-decoration-line: underline;
+}
+#second-ul li {
+  color: blue;
+}
+#first-ul li:first-child {
+  font-weight: bold;
+}
+#third-ul {
+  list-style: none;
+}
