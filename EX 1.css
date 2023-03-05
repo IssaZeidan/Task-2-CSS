@@ -1,0 +1,21 @@
+.Boxes {
+  display: block;
+}
+
+div div:nth-child(odd) {
+  display: inline-block;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+div div:nth-child(even) {
+  display: inline-block;
+  background-color: green;
+  position: relative;
+  top: 65px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
