@@ -1,21 +1,38 @@
-.Boxes {
-  display: block;
-}
-
-div div:nth-child(odd) {
+.Boxes1 div{
   display: inline-block;
-  background-color: yellow;
   width: 100px;
   height: 100px;
+  margin: 10px;
   border: 1px solid black;
 }
+.Boxes:nth-child(odd){
+  background-color: yellow;
 
-div div:nth-child(even) {
-  display: inline-block;
+
+}
+.Boxes:nth-child(even){
   background-color: green;
   position: relative;
-  top: 65px;
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
+  top: 50px;
+
 }
+
+.Boxes2 {
+  font-weight: bold;
+  font-size: 20px;}
+  
+  .numbers:nth-child(Odd
+  ) {
+    display: inline-block;
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .numbers:nth-child(even) {
+    display: none;
+  }
